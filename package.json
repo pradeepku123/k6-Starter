@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "k6 run --vus 1000 --duration 10s ./test/k6starter.spec.js"
+    "test": "k6 run --vus 10 --duration 8s ./test/HTTP_METHOD/http_method.spec.js"
   },
   "keywords": [],
   "author": "",
